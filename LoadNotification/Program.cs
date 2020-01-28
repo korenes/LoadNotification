@@ -16,6 +16,8 @@ namespace LoadNotification
             CreateHostBuilder(args).Build().Run();
 
             
+
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -25,4 +27,7 @@ namespace LoadNotification
                     webBuilder.UseStartup<Startup>();
                 });
     }
-}
+
+
+        }
+
